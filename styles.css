@@ -1,0 +1,81 @@
+body {
+	background: black;
+	font-family: "Playwrite US Modern", cursive;
+}
+
+* {
+	min-height: 10px;
+}
+
+.postcard {
+	width: 400px;
+	background: white;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 340px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+.body-left {
+	font-size: 11px;
+}
+
+.body-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 0;
+}
+
+.body-right input[type="text"] {
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+.postcard-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.postcard-footer button {
+	text-align: center;
+	background-color: gray;
+	padding: 2px;
+	border: none;
+}
+
+.postcard-footer button:hover {
+	background-color: whitesmoke;
+}
